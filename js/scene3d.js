@@ -22,6 +22,8 @@
   // Thứ tự quan trọng: từ khóa cụ thể đứng trước.
   const RULES = [
     ['serve',    /^(dùng|hoàn thành|hoàn thiện|bày|trình bày|trang trí|múc)/],
+    ['marinate', /^(đánh trứng|pha trứng|trộn trứng)|đánh tan trứng/],
+    ['fry',      /^(đúc|tráng|ốp)|đúc trứng/],
     ['caramel',  /thắng|nước hàng|nước màu|caramel|lên màu/],
     ['wrap',     /gói|nhồi|nặn|vo viên|tạo hình|cuốn|tạo váng|làm thịt viên|làm chả/],
     ['steam',    /hấp/],

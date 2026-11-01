@@ -7,7 +7,7 @@ Bộ công thức món ăn gia đình, nguyên liệu phổ biến, dễ làm. M
 
 > 🍳 Xem và nấu theo từng bước có hoạt cảnh 3D trong app [Bếp Nhà](https://nminhcuongdev.github.io/cooking-app/).
 
-## Mục lục (66 món)
+## Mục lục (76 món)
 
 ### Gà (21)
 - 🌐 [Cánh gà chiên nước mắm](ga/canh-ga-chien-nuoc-mam.md): 4 người
@@ -89,9 +89,19 @@ Bộ công thức món ăn gia đình, nguyên liệu phổ biến, dễ làm. M
 - 🌐 [Khổ qua xào trứng thịt băm](rau/kho-qua-xao-trung-thit-bam.md): 4 người
 - 🌐 [Rau muống xào mắm ruốc](rau/rau-muong-xao-mam-ruoc.md): 4 người
 
-### Trứng & đậu (2)
+### Trứng & đậu (12)
+- 🌐 [Chả lụa kho trứng cút](dau-trung/cha-lua-kho-trung-cut.md): 4 người
 - 🌐 [Chả trứng hấp](dau-trung/cha-trung-hap.md): 3–4 người
+- 🌐 [Đậu hũ hấp trứng](dau-trung/dau-hu-hap-trung.md): 2 người
+- 🌐 [Gỏi trứng chiên](dau-trung/goi-trung-chien.md): 4 người
+- 🌐 [Trứng chiên đậu hũ thịt cua](dau-trung/trung-chien-dau-hu-thit-cua.md): 4 người
+- 🌐 [Trứng chiên lạp xưởng](dau-trung/trung-chien-lap-xuong.md): 4 người
+- 🌐 [Trứng chiên ngải cứu](dau-trung/trung-chien-ngai-cuu.md): 4 người
+- 🌐 [Trứng cút xào chua ngọt](dau-trung/trung-cut-xao-chua-ngot.md): 4 người
+- 🌐 [Trứng đúc hẹ](dau-trung/trung-duc-he.md): 4 người
+- 🌐 [Trứng đúc nấm rơm](dau-trung/trung-duc-nam-rom.md): 4 người
 - 🌐 [Trứng hấp rau củ](dau-trung/trung-hap-rau-cu.md): 2 người
+- 🌐 [Trứng hấp tôm nấm](dau-trung/trung-hap-tom-nam.md): 4 người
 
 ## Quy ước
 - Đơn vị: g, kg, ml. 1 muỗng canh ≈ 15 ml, 1 muỗng cà phê ≈ 5 ml.

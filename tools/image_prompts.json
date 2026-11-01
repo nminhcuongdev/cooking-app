@@ -320,13 +320,63 @@
   "prompt": "Vietnamese dish \"Rau muống xào mắm ruốc\" (Rau), served on a ceramic plate. Visible main ingredients: rau muống hạt, thịt ba rọi, Sả xay, mắm ruốc. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
  },
  {
+  "id": "cha-lua-kho-trung-cut",
+  "title": "Chả lụa kho trứng cút",
+  "prompt": "Vietnamese dish \"Chả lụa kho trứng cút\" (Trứng & đậu), served in a small clay pot (nồi đất) with glossy caramelized sauce. Visible main ingredients: chả lụa, trứng cút, su hào, sả, ngò rí, sả băm, hành tím băm. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
+ },
+ {
   "id": "cha-trung-hap",
   "title": "Chả trứng hấp",
   "prompt": "Vietnamese dish \"Chả trứng hấp\" (Trứng & đậu), served on a plate, steamed, with herbs on top. Visible main ingredients: trứng vịt, trứng muối, thịt nạc dăm xay, nấm mèo lớn, bún tàu, củ hành tím băm, lòng đỏ trứng vịt. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
  },
  {
+  "id": "dau-hu-hap-trung",
+  "title": "Đậu hũ hấp trứng",
+  "prompt": "Vietnamese dish \"Đậu hũ hấp trứng\" (Trứng & đậu), served on a plate, steamed, with herbs on top. Visible main ingredients: trứng gà, đậu hũ non, cà rốt, thịt nạc xay, hành tím và 2 tép tỏi, hành lá, Ngò rí. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
+ },
+ {
+  "id": "goi-trung-chien",
+  "title": "Gỏi trứng chiên",
+  "prompt": "Vietnamese dish \"Gỏi trứng chiên\" (Trứng & đậu), served as a fresh salad on a wide plate. Visible main ingredients: trứng gà, cà rốt, dưa leo, cà chua, rau húng lủi, cần tàu, hành tím. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
+ },
+ {
+  "id": "trung-chien-dau-hu-thit-cua",
+  "title": "Trứng chiên đậu hũ thịt cua",
+  "prompt": "Vietnamese dish \"Trứng chiên đậu hũ thịt cua\" (Trứng & đậu), served on a plate lined with lettuce and sliced cucumber. Visible main ingredients: trứng gà ta, thịt cua, đậu hũ trắng, cà chua bi, hành tím, Hành lá, Sốt mayonnaise. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
+ },
+ {
+  "id": "trung-chien-lap-xuong",
+  "title": "Trứng chiên lạp xưởng",
+  "prompt": "Vietnamese dish \"Trứng chiên lạp xưởng\" (Trứng & đậu), served on a plate lined with lettuce and sliced cucumber. Visible main ingredients: trứng gà, lạp xưởng, hành tây, Tỏi, ổ bánh mì. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
+ },
+ {
+  "id": "trung-chien-ngai-cuu",
+  "title": "Trứng chiên ngải cứu",
+  "prompt": "Vietnamese dish \"Trứng chiên ngải cứu\" (Trứng & đậu), served on a plate lined with lettuce and sliced cucumber. Visible main ingredients: trứng gà, thịt cua, ngải cứu, hành tím cắt lát, tỏi băm, sốt mayonnaise, Dưa leo. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
+ },
+ {
+  "id": "trung-cut-xao-chua-ngot",
+  "title": "Trứng cút xào chua ngọt",
+  "prompt": "Vietnamese dish \"Trứng cút xào chua ngọt\" (Trứng & đậu), served on a ceramic plate. Visible main ingredients: trứng cút, hành tây, nấm mèo ngâm, ớt chuông đỏ, bắp non, cà chua, Bột chiên giòn. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
+ },
+ {
+  "id": "trung-duc-he",
+  "title": "Trứng đúc hẹ",
+  "prompt": "Vietnamese dish \"Trứng đúc hẹ\" (Trứng & đậu), served on a ceramic plate. Visible main ingredients: trứng gà, thịt nạc dăm, hẹ, ớt sừng, sốt mayonnaise, Cơm. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
+ },
+ {
+  "id": "trung-duc-nam-rom",
+  "title": "Trứng đúc nấm rơm",
+  "prompt": "Vietnamese dish \"Trứng đúc nấm rơm\" (Trứng & đậu), served on a ceramic plate. Visible main ingredients: trứng vịt, thịt nạc dăm xay, nấm rơm, nhỏ bún tàu ngâm nở, hành lá, Hành tím băm. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
+ },
+ {
   "id": "trung-hap-rau-cu",
   "title": "Trứng hấp rau củ",
   "prompt": "Vietnamese dish \"Trứng hấp rau củ\" (Trứng & đậu), served on a plate, steamed, with herbs on top. Visible main ingredients: trứng gà, bí đỏ, cà rốt, nấm nút, bắp hạt, rong biển ăn liền. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
+ },
+ {
+  "id": "trung-hap-tom-nam",
+  "title": "Trứng hấp tôm nấm",
+  "prompt": "Vietnamese dish \"Trứng hấp tôm nấm\" (Trứng & đậu), served on a plate, steamed, with herbs on top. Visible main ingredients: trứng gà, tôm sú lột vỏ, nấm rơm, cà rốt, hành lá, Hành tím băm. Realistic, appetizing food photograph for a Vietnamese home-cooking app. Square 1:1 composition, camera at a 45-degree angle, dish centered and filling most of the frame, soft natural window light, shallow depth of field, rustic wooden table, simple Vietnamese home tableware, a bowl of steamed rice and chopsticks softly blurred in the background when it suits the dish. Home-style portion, not restaurant plating. No text, no logos, no watermark, no people, no hands."
  }
 ]
