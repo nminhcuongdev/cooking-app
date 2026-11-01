@@ -87,6 +87,8 @@ def parse(path, group):
     r['time'] = m.get('Tổng thời gian', '')
     r['difficulty'] = m.get('Độ khó', 'Dễ')
     r['mine'] = r['source'] is None
+    img = os.path.join(ROOT, 'images', r['id'] + '.jpg')
+    r['image'] = f"images/{r['id']}.jpg" if os.path.exists(img) else None
     return r
 
 def main():
@@ -106,7 +108,8 @@ def main():
         fh.write('window.RECIPES = ')
         json.dump(out, fh, ensure_ascii=False, indent=1)
         fh.write(';\n')
-    print(f'{len(out)} công thức -> {os.path.relpath(OUT, ROOT)}')
+    n_img = sum(1 for r in out if r['image'])
+    print(f'{len(out)} công thức ({n_img} có ảnh) -> {os.path.relpath(OUT, ROOT)}')
 
 if __name__ == '__main__':
     main()

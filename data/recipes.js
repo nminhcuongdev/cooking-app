@@ -98,7 +98,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~25 phút + 20 phút ướp",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "canh-ga-chien-toi-la-chanh",
@@ -203,7 +204,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~25 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "cha-ga-tom",
@@ -309,7 +311,8 @@ window.RECIPES = [
   "servings": "3–4 người",
   "time": "~55 phút",
   "difficulty": "Dễ",
-  "mine": true
+  "mine": true,
+  "image": null
  },
  {
   "id": "du-du-xao-thit-ga",
@@ -400,7 +403,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút + 20 phút ướp",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-hap-hanh-ram",
@@ -510,7 +514,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~45 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-kho-me",
@@ -606,7 +611,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~30 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-kho-nam",
@@ -699,7 +705,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-kho-rau-cu",
@@ -803,7 +810,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~45 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-nau-nam",
@@ -918,7 +926,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~30 phút + 20 phút ướp",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-nuong",
@@ -1016,7 +1025,8 @@ window.RECIPES = [
   "servings": "3–4 người",
   "time": "~1 giờ 45 phút",
   "difficulty": "Dễ",
-  "mine": true
+  "mine": true,
+  "image": null
  },
  {
   "id": "ga-rang-gung",
@@ -1141,7 +1151,8 @@ window.RECIPES = [
   "servings": "2–3 người",
   "time": "~1 giờ 5 phút",
   "difficulty": "Dễ",
-  "mine": true
+  "mine": true,
+  "image": null
  },
  {
   "id": "ga-rang-muoi",
@@ -1243,7 +1254,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~30 phút + 30 phút ướp",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-rim-nuoc-tuong",
@@ -1351,7 +1363,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~45 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-xao-cay",
@@ -1463,7 +1476,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-xao-chua-ngot",
@@ -1568,7 +1582,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~15 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-xao-giam-gung",
@@ -1656,7 +1671,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-xao-nam",
@@ -1742,7 +1758,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~10 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-xao-nuoc-tuong",
@@ -1837,7 +1854,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~25 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ga-xao-sa-ot",
@@ -1947,7 +1965,8 @@ window.RECIPES = [
   "servings": "2–3 người",
   "time": "~1 giờ",
   "difficulty": "Dễ",
-  "mine": true
+  "mine": true,
+  "image": null
  },
  {
   "id": "goi-ga-rau-ram",
@@ -2048,7 +2067,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút (+ thời gian luộc gà)",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "thit-ga-kho-rau-ram",
@@ -2139,7 +2159,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~30 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "cha-thit-la-lot",
@@ -2223,7 +2244,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~30 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "suon-kho-khoai-tay",
@@ -2329,7 +2351,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~40 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "suon-non-ram-me",
@@ -2424,7 +2447,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~35 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "suon-ram-man",
@@ -2516,7 +2540,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "suon-xao-chua-ngot",
@@ -2627,7 +2652,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "thit-ba-chi-rim-chanh-sa",
@@ -2734,7 +2760,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~30 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "thit-ba-chi-rim-nuoc-tuong",
@@ -2827,7 +2854,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~25 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "thit-ba-roi-xao-nam",
@@ -2936,7 +2964,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~10 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "thit-heo-kho-thom",
@@ -3022,7 +3051,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "thit-heo-xao-nuoc-tuong-gung",
@@ -3114,7 +3144,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~15 phút + 15 phút ướp",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "thit-kho-dau-phong",
@@ -3211,7 +3242,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút (+15 phút luộc đậu)",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "thit-kho-nuoc-dua",
@@ -3310,7 +3342,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~60 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "thit-kho-trung",
@@ -3420,7 +3453,8 @@ window.RECIPES = [
   "servings": "3–4 người",
   "time": "~1 giờ",
   "difficulty": "Dễ",
-  "mine": true
+  "mine": true,
+  "image": null
  },
  {
   "id": "thit-rang-gung-la-chanh",
@@ -3503,7 +3537,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~25 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "thit-rang-sa",
@@ -3610,7 +3645,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~30 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "bo-luc-lac",
@@ -3700,7 +3736,8 @@ window.RECIPES = [
   "servings": "2 người",
   "time": "~50 phút",
   "difficulty": "Dễ",
-  "mine": true
+  "mine": true,
+  "image": null
  },
  {
   "id": "bo-sot-tieu-den",
@@ -3799,7 +3836,8 @@ window.RECIPES = [
   "servings": "2 người",
   "time": "~40 phút",
   "difficulty": "Dễ",
-  "mine": true
+  "mine": true,
+  "image": null
  },
  {
   "id": "thit-bo-xao-can-nuoc",
@@ -3892,7 +3930,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~25 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "thit-bo-xao-la-lot",
@@ -3980,7 +4019,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~10 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "vit-om-sau",
@@ -4092,7 +4132,8 @@ window.RECIPES = [
   "servings": "3–4 người",
   "time": "~1 giờ 35 phút",
   "difficulty": "Dễ",
-  "mine": true
+  "mine": true,
+  "image": null
  },
  {
   "id": "ca-basa-chien-gion",
@@ -4189,7 +4230,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~10 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ca-kho-tau",
@@ -4271,7 +4313,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~25 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ca-ro-kho-to",
@@ -4363,7 +4406,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~30 phút + 30 phút ướp",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ca-ro-phi-chien-sot-ca",
@@ -4459,7 +4503,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~30 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "muc-xao-chua-cay",
@@ -4563,7 +4608,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~15 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "ngheu-xao-sa-te-tom",
@@ -4683,7 +4729,8 @@ window.RECIPES = [
   "servings": "3 người",
   "time": "~1 giờ 15 phút – 2 giờ 15 phút",
   "difficulty": "Dễ",
-  "mine": true
+  "mine": true,
+  "image": null
  },
  {
   "id": "tom-rim-thit-ba-chi",
@@ -4783,7 +4830,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "canh-bap-cai-goi-thit",
@@ -4883,7 +4931,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~30 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "canh-bi-dao-suon-non",
@@ -4987,7 +5036,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~40 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "canh-ca-tram-dua-chua",
@@ -5115,7 +5165,8 @@ window.RECIPES = [
   "servings": "3–4 người",
   "time": "~55 phút",
   "difficulty": "Dễ",
-  "mine": true
+  "mine": true,
+  "image": null
  },
  {
   "id": "canh-cai-goi-thit-ga-nam",
@@ -5211,7 +5262,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "canh-cai-xoan",
@@ -5307,7 +5359,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "canh-chua-ca-loc",
@@ -5437,7 +5490,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~25 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "canh-dua-leo-nhoi-thit",
@@ -5524,7 +5578,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "canh-ga-nau-khoai-tay",
@@ -5611,7 +5666,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~25 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "canh-kho-qua-ham-thit",
@@ -5714,7 +5770,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~30 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "canh-muop-huong-thit-vien",
@@ -5799,7 +5856,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~20 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "canh-muop-mong-toi-nau-tom",
@@ -5881,7 +5939,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~10 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "bong-cai-xao-nuoc-tuong",
@@ -5968,7 +6027,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~10 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "cai-bo-xoi-xao-thit",
@@ -6068,7 +6128,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~15 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "dau-que-xao-thit",
@@ -6159,7 +6220,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~15 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "kho-qua-xao-trung-thit-bam",
@@ -6260,7 +6322,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~10 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "rau-muong-xao-mam-ruoc",
@@ -6354,7 +6417,8 @@ window.RECIPES = [
   "servings": "4 người",
   "time": "~10 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "cha-trung-hap",
@@ -6449,7 +6513,8 @@ window.RECIPES = [
   "servings": "3–4 người",
   "time": "~30 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  },
  {
   "id": "trung-hap-rau-cu",
@@ -6530,6 +6595,7 @@ window.RECIPES = [
   "servings": "2 người",
   "time": "~15 phút",
   "difficulty": "Dễ",
-  "mine": false
+  "mine": false,
+  "image": null
  }
 ];

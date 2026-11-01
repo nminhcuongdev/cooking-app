@@ -97,7 +97,7 @@
     const acts = [...new Set(r.steps.map(s => s.action))].slice(0, 4).map(a => C3 ? C3.ACTIONS[a].icon : '').join('');
     const fav = favs.has(r.id);
     return `<a class="card" href="#mon-${r.id}">
-      <div class="thumb g-${r.group}" aria-hidden="true"><span class="em">${dishEmoji(r)}</span><span class="acts">${acts}</span></div>
+      <div class="thumb g-${r.group}${r.image ? ' has-img' : ''}" aria-hidden="true"><span class="em">${dishEmoji(r)}</span>${r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy" decoding="async" onerror="this.parentNode.classList.remove('has-img');this.remove()">` : ''}<span class="acts">${acts}</span></div>
       <div class="card-body">
         <h3>${esc(r.title)}</h3>
         <div class="meta"><span>👥 ${esc(r.servings || '—')}</span><span>🧾 ${r.steps.length} bước</span></div>
@@ -160,6 +160,7 @@
       <a class="back" href="#">← Tất cả món</a>
       <div class="detail">
         <div class="side stack">
+          ${r.image ? `<img class="dphoto" src="${esc(r.image)}" alt="Ảnh minh họa món ${esc(r.title)}" decoding="async" onerror="this.remove()">` : ''}
           <div class="dhead g-${r.group}">
             <div class="emoji" aria-hidden="true">${dishEmoji(r)}</div>
             <h1>${esc(r.title)}</h1>
@@ -293,7 +294,7 @@
 
     const body = document.getElementById('cbody');
     if (finished) {
-      body.innerHTML = `<div class="done-box"><div class="big">🎉</div><h2>Xong rồi, mời cả nhà ăn cơm!</h2>
+      body.innerHTML = `<div class="done-box">${r.image ? `<img class="dphoto" src="${esc(r.image)}" alt="Ảnh minh họa món ${esc(r.title)}" onerror="this.remove()">` : '<div class="big">🎉</div>'}<h2>Xong rồi, mời cả nhà ăn cơm!</h2>
         <p>Bạn đã hoàn thành <b>${esc(r.title)}</b>.</p>
         ${r.tips.length ? `<p class="note" style="text-align:left">💡 ${md(r.tips[0])}</p>` : ''}</div>`;
     } else {

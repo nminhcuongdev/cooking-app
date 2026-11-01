@@ -36,7 +36,8 @@ jobs:
       - name: Chuẩn bị thư mục site
         run: |
           mkdir -p _site
-          cp -r index.html css js data dist .nojekyll _site/
+          cp -r index.html css js data dist images .nojekyll _site/
+          rm -rf _site/images/raw
 
       - uses: actions/configure-pages@v5
 

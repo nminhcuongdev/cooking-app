@@ -30,6 +30,31 @@ Sau đó mở http://localhost:8000. Hoặc mở thẳng file [`dist/bep-nha.htm
    python3 tools/bundle.py       # -> dist/bep-nha.html
    ```
 
+## Ảnh minh họa món ăn (tạo bằng Codex trên Windows)
+App tự hiện ảnh cho món nào có file `images/<id-món>.jpg`. Món chưa có ảnh thì vẫn hiện biểu tượng như cũ.
+
+Cần có: [Codex CLI](https://github.com/openai/codex) đã cài và đăng nhập (`npm install -g @openai/codex`, rồi `codex login`), và một bản clone của repo này.
+
+1. **Chạy thử 2 món** trong PowerShell, ở thư mục repo:
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File tools\gen_images.ps1 -Limit 2
+   ```
+   Xem ảnh trong `images\`. Nếu báo *KHÔNG thấy …png*, mở `images\raw\<id>.codex.log` để xem Codex đã làm gì.
+2. **Chọn model vừa phải:** mở `codex`, gõ `/model` để xem danh sách model trên máy, rồi truyền tên model qua `-Model`, ví dụ `-Model <tên-model-mini>`. Mặc định script đặt mức suy luận `-Effort low` và chất lượng ảnh `-Quality medium`.
+3. **Tạo các món còn lại.** Script bỏ qua những món đã có ảnh, nên chạy lại nhiều lần cũng không tốn thêm:
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File tools\gen_images.ps1
+   ```
+4. **Đưa lên trang:**
+   ```powershell
+   git add images/*.jpg
+   git commit -m "Add dish images"
+   git push
+   ```
+   Workflow tự build lại dữ liệu và deploy.
+
+Làm lại một món: `-Only canh-chua-ca-loc -Force`. Mô tả ảnh của từng món nằm trong `tools/image_prompts.json`, sinh bằng `python3 tools/make_image_prompts.py` và có thể sửa tay. Ảnh gốc (`images/raw/`) không được commit. Chỉ ảnh JPEG 800×800 khoảng 80–150 KB được đưa lên.
+
 ## Cấu trúc
 | Đường dẫn | Vai trò |
 |---|---|
@@ -41,6 +66,9 @@ Sau đó mở http://localhost:8000. Hoặc mở thẳng file [`dist/bep-nha.htm
 | `recipes/` | Công thức gốc dạng Markdown |
 | `tools/` | Script build dữ liệu và đóng gói |
 | `dist/bep-nha.html` | Bản gộp một file |
+| `images/` | Ảnh minh họa món (`<id>.jpg`) |
+| `tools/gen_images.ps1` | Script tạo ảnh bằng Codex trên Windows |
+| `tools/image_prompts.json` | Mô tả ảnh cho từng món |
 | `.github/workflows/pages.yml` | Build và deploy lên GitHub Pages mỗi khi push lên `main` |
 | `.nojekyll` | Tắt Jekyll để Pages phục vụ nguyên các file tĩnh |
 
