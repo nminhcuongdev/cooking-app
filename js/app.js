@@ -117,7 +117,6 @@
     main.innerHTML = `<div class="wrap">
       <section class="hero">
         <h1>Hôm nay nấu gì?</h1>
-        <p>Món ăn gia đình Việt, nguyên liệu dễ mua. Mỗi bước có hoạt cảnh 3D minh họa, hẹn giờ và đánh dấu nguyên liệu đã chuẩn bị.</p>
         <div class="stats"><span class="stat"><b>${RECIPES.length}</b> món</span><span class="stat"><b>${totalSteps}</b> bước có 3D</span><span class="stat"><b>${GROUP_ORDER.filter(g => c[g]).length}</b> nhóm món</span></div>
       </section>
       <div class="chips" role="toolbar" aria-label="Lọc theo nhóm món">
