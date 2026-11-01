@@ -41,9 +41,9 @@ Cần có: [Codex CLI](https://github.com/openai/codex) đã cài và đăng nh�
    ```
    Xem ảnh trong `images\`. Nếu báo *KHÔNG thấy …png*, mở `images\raw\<id>.codex.log` để xem Codex đã làm gì.
 2. **Chọn model vừa phải:** mở `codex`, gõ `/model` để xem danh sách model trên máy, rồi truyền tên model qua `-Model`, ví dụ `-Model <tên-model-mini>`. Mặc định script đặt mức suy luận `-Effort low` và chất lượng ảnh `-Quality medium`.
-3. **Tạo các món còn lại.** Script bỏ qua những món đã có ảnh, nên chạy lại nhiều lần cũng không tốn thêm:
+3. **Tạo các món còn lại.** Script bỏ qua những món đã có ảnh, nên chạy lại nhiều lần cũng không tốn thêm. Mặc định chạy 4 ảnh cùng lúc; đổi bằng `-Parallel` (gặp *rate limit* thì giảm xuống):
    ```powershell
-   powershell -ExecutionPolicy Bypass -File tools\gen_images.ps1
+   powershell -ExecutionPolicy Bypass -File tools\gen_images.ps1 -Parallel 6
    ```
 4. **Đưa lên trang:**
    ```powershell
