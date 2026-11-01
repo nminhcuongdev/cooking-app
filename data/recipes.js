@@ -99,7 +99,7 @@ window.RECIPES = [
   "time": "~25 phút + 20 phút ướp",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-ga-chien-nuoc-mam.jpg"
  },
  {
   "id": "canh-ga-chien-toi-la-chanh",
@@ -205,7 +205,7 @@ window.RECIPES = [
   "time": "~25 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-ga-chien-toi-la-chanh.jpg"
  },
  {
   "id": "cha-ga-tom",
@@ -312,7 +312,7 @@ window.RECIPES = [
   "time": "~55 phút",
   "difficulty": "Dễ",
   "mine": true,
-  "image": null
+  "image": "images/cha-ga-tom.jpg"
  },
  {
   "id": "du-du-xao-thit-ga",
@@ -404,7 +404,7 @@ window.RECIPES = [
   "time": "~20 phút + 20 phút ướp",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/du-du-xao-thit-ga.jpg"
  },
  {
   "id": "ga-hap-hanh-ram",
@@ -515,7 +515,7 @@ window.RECIPES = [
   "time": "~45 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-hap-hanh-ram.jpg"
  },
  {
   "id": "ga-kho-me",
@@ -612,7 +612,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-kho-me.jpg"
  },
  {
   "id": "ga-kho-nam",
@@ -706,7 +706,7 @@ window.RECIPES = [
   "time": "~20 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-kho-nam.jpg"
  },
  {
   "id": "ga-kho-rau-cu",
@@ -811,7 +811,7 @@ window.RECIPES = [
   "time": "~45 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-kho-rau-cu.jpg"
  },
  {
   "id": "ga-nau-nam",
@@ -927,7 +927,7 @@ window.RECIPES = [
   "time": "~30 phút + 20 phút ướp",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-nau-nam.jpg"
  },
  {
   "id": "ga-nuong",
@@ -1026,7 +1026,7 @@ window.RECIPES = [
   "time": "~1 giờ 45 phút",
   "difficulty": "Dễ",
   "mine": true,
-  "image": null
+  "image": "images/ga-nuong.jpg"
  },
  {
   "id": "ga-rang-gung",
@@ -1152,7 +1152,7 @@ window.RECIPES = [
   "time": "~1 giờ 5 phút",
   "difficulty": "Dễ",
   "mine": true,
-  "image": null
+  "image": "images/ga-rang-gung.jpg"
  },
  {
   "id": "ga-rang-muoi",
@@ -1255,7 +1255,7 @@ window.RECIPES = [
   "time": "~30 phút + 30 phút ướp",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-rang-muoi.jpg"
  },
  {
   "id": "ga-rim-nuoc-tuong",
@@ -1364,7 +1364,7 @@ window.RECIPES = [
   "time": "~45 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-rim-nuoc-tuong.jpg"
  },
  {
   "id": "ga-xao-cay",
@@ -1477,7 +1477,7 @@ window.RECIPES = [
   "time": "~20 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-xao-cay.jpg"
  },
  {
   "id": "ga-xao-chua-ngot",
@@ -1583,7 +1583,7 @@ window.RECIPES = [
   "time": "~15 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-xao-chua-ngot.jpg"
  },
  {
   "id": "ga-xao-giam-gung",
@@ -1672,7 +1672,7 @@ window.RECIPES = [
   "time": "~20 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-xao-giam-gung.jpg"
  },
  {
   "id": "ga-xao-nam",
@@ -1759,7 +1759,7 @@ window.RECIPES = [
   "time": "~10 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-xao-nam.jpg"
  },
  {
   "id": "ga-xao-nuoc-tuong",
@@ -1855,7 +1855,7 @@ window.RECIPES = [
   "time": "~25 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ga-xao-nuoc-tuong.jpg"
  },
  {
   "id": "ga-xao-sa-ot",
@@ -1966,7 +1966,7 @@ window.RECIPES = [
   "time": "~1 giờ",
   "difficulty": "Dễ",
   "mine": true,
-  "image": null
+  "image": "images/ga-xao-sa-ot.jpg"
  },
  {
   "id": "goi-ga-rau-ram",
@@ -2068,7 +2068,7 @@ window.RECIPES = [
   "time": "~20 phút (+ thời gian luộc gà)",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/goi-ga-rau-ram.jpg"
  },
  {
   "id": "thit-ga-kho-rau-ram",
@@ -2160,7 +2160,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-ga-kho-rau-ram.jpg"
  },
  {
   "id": "cha-thit-la-lot",
@@ -2245,7 +2245,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/cha-thit-la-lot.jpg"
  },
  {
   "id": "suon-kho-khoai-tay",
@@ -2352,7 +2352,7 @@ window.RECIPES = [
   "time": "~40 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/suon-kho-khoai-tay.jpg"
  },
  {
   "id": "suon-non-ram-me",
@@ -2448,7 +2448,7 @@ window.RECIPES = [
   "time": "~35 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/suon-non-ram-me.jpg"
  },
  {
   "id": "suon-ram-man",
@@ -2541,7 +2541,7 @@ window.RECIPES = [
   "time": "~20 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/suon-ram-man.jpg"
  },
  {
   "id": "suon-xao-chua-ngot",
@@ -2653,7 +2653,7 @@ window.RECIPES = [
   "time": "~20 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/suon-xao-chua-ngot.jpg"
  },
  {
   "id": "thit-ba-chi-rim-chanh-sa",
@@ -2761,7 +2761,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-ba-chi-rim-chanh-sa.jpg"
  },
  {
   "id": "thit-ba-chi-rim-nuoc-tuong",
@@ -2855,7 +2855,7 @@ window.RECIPES = [
   "time": "~25 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-ba-chi-rim-nuoc-tuong.jpg"
  },
  {
   "id": "thit-ba-roi-xao-nam",
@@ -2965,7 +2965,7 @@ window.RECIPES = [
   "time": "~10 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-ba-roi-xao-nam.jpg"
  },
  {
   "id": "thit-heo-kho-thom",
@@ -3052,7 +3052,7 @@ window.RECIPES = [
   "time": "~20 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-heo-kho-thom.jpg"
  },
  {
   "id": "thit-heo-xao-nuoc-tuong-gung",
@@ -3145,7 +3145,7 @@ window.RECIPES = [
   "time": "~15 phút + 15 phút ướp",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-heo-xao-nuoc-tuong-gung.jpg"
  },
  {
   "id": "thit-kho-dau-phong",
@@ -3243,7 +3243,7 @@ window.RECIPES = [
   "time": "~20 phút (+15 phút luộc đậu)",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-kho-dau-phong.jpg"
  },
  {
   "id": "thit-kho-nuoc-dua",
@@ -3343,7 +3343,7 @@ window.RECIPES = [
   "time": "~60 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-kho-nuoc-dua.jpg"
  },
  {
   "id": "thit-kho-trung",
@@ -3454,7 +3454,7 @@ window.RECIPES = [
   "time": "~1 giờ",
   "difficulty": "Dễ",
   "mine": true,
-  "image": null
+  "image": "images/thit-kho-trung.jpg"
  },
  {
   "id": "thit-rang-gung-la-chanh",
@@ -3538,7 +3538,7 @@ window.RECIPES = [
   "time": "~25 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-rang-gung-la-chanh.jpg"
  },
  {
   "id": "thit-rang-sa",
@@ -3646,7 +3646,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-rang-sa.jpg"
  },
  {
   "id": "bo-luc-lac",
@@ -3737,7 +3737,7 @@ window.RECIPES = [
   "time": "~50 phút",
   "difficulty": "Dễ",
   "mine": true,
-  "image": null
+  "image": "images/bo-luc-lac.jpg"
  },
  {
   "id": "bo-sot-tieu-den",
@@ -3837,7 +3837,7 @@ window.RECIPES = [
   "time": "~40 phút",
   "difficulty": "Dễ",
   "mine": true,
-  "image": null
+  "image": "images/bo-sot-tieu-den.jpg"
  },
  {
   "id": "thit-bo-xao-can-nuoc",
@@ -3931,7 +3931,7 @@ window.RECIPES = [
   "time": "~25 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-bo-xao-can-nuoc.jpg"
  },
  {
   "id": "thit-bo-xao-la-lot",
@@ -4020,7 +4020,7 @@ window.RECIPES = [
   "time": "~10 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/thit-bo-xao-la-lot.jpg"
  },
  {
   "id": "vit-om-sau",
@@ -4133,7 +4133,7 @@ window.RECIPES = [
   "time": "~1 giờ 35 phút",
   "difficulty": "Dễ",
   "mine": true,
-  "image": null
+  "image": "images/vit-om-sau.jpg"
  },
  {
   "id": "ca-basa-chien-gion",
@@ -4231,7 +4231,7 @@ window.RECIPES = [
   "time": "~10 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ca-basa-chien-gion.jpg"
  },
  {
   "id": "ca-kho-tau",
@@ -4314,7 +4314,7 @@ window.RECIPES = [
   "time": "~25 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ca-kho-tau.jpg"
  },
  {
   "id": "ca-ro-kho-to",
@@ -4407,7 +4407,7 @@ window.RECIPES = [
   "time": "~30 phút + 30 phút ướp",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ca-ro-kho-to.jpg"
  },
  {
   "id": "ca-ro-phi-chien-sot-ca",
@@ -4504,7 +4504,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/ca-ro-phi-chien-sot-ca.jpg"
  },
  {
   "id": "muc-xao-chua-cay",
@@ -4609,7 +4609,7 @@ window.RECIPES = [
   "time": "~15 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/muc-xao-chua-cay.jpg"
  },
  {
   "id": "ngheu-xao-sa-te-tom",
@@ -4730,7 +4730,7 @@ window.RECIPES = [
   "time": "~1 giờ 15 phút – 2 giờ 15 phút",
   "difficulty": "Dễ",
   "mine": true,
-  "image": null
+  "image": "images/ngheu-xao-sa-te-tom.jpg"
  },
  {
   "id": "tom-rim-thit-ba-chi",
@@ -4831,7 +4831,7 @@ window.RECIPES = [
   "time": "~20 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/tom-rim-thit-ba-chi.jpg"
  },
  {
   "id": "canh-bap-cai-goi-thit",
@@ -4932,7 +4932,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-bap-cai-goi-thit.jpg"
  },
  {
   "id": "canh-bi-dao-suon-non",
@@ -5037,7 +5037,7 @@ window.RECIPES = [
   "time": "~40 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-bi-dao-suon-non.jpg"
  },
  {
   "id": "canh-ca-tram-dua-chua",
@@ -5166,7 +5166,7 @@ window.RECIPES = [
   "time": "~55 phút",
   "difficulty": "Dễ",
   "mine": true,
-  "image": null
+  "image": "images/canh-ca-tram-dua-chua.jpg"
  },
  {
   "id": "canh-cai-goi-thit-ga-nam",
@@ -5263,7 +5263,7 @@ window.RECIPES = [
   "time": "~20 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-cai-goi-thit-ga-nam.jpg"
  },
  {
   "id": "canh-cai-xoan",
@@ -5360,7 +5360,7 @@ window.RECIPES = [
   "time": "~20 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-cai-xoan.jpg"
  },
  {
   "id": "canh-chua-ca-loc",
@@ -5491,7 +5491,7 @@ window.RECIPES = [
   "time": "~25 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-chua-ca-loc.jpg"
  },
  {
   "id": "canh-dua-leo-nhoi-thit",
@@ -5579,7 +5579,7 @@ window.RECIPES = [
   "time": "~20 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-dua-leo-nhoi-thit.jpg"
  },
  {
   "id": "canh-ga-nau-khoai-tay",
@@ -5667,7 +5667,7 @@ window.RECIPES = [
   "time": "~25 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-ga-nau-khoai-tay.jpg"
  },
  {
   "id": "canh-kho-qua-ham-thit",
@@ -5771,7 +5771,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-kho-qua-ham-thit.jpg"
  },
  {
   "id": "canh-muop-huong-thit-vien",
@@ -5857,7 +5857,7 @@ window.RECIPES = [
   "time": "~20 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-muop-huong-thit-vien.jpg"
  },
  {
   "id": "canh-muop-mong-toi-nau-tom",
@@ -5940,7 +5940,7 @@ window.RECIPES = [
   "time": "~10 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/canh-muop-mong-toi-nau-tom.jpg"
  },
  {
   "id": "bong-cai-xao-nuoc-tuong",
@@ -6028,7 +6028,7 @@ window.RECIPES = [
   "time": "~10 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/bong-cai-xao-nuoc-tuong.jpg"
  },
  {
   "id": "cai-bo-xoi-xao-thit",
@@ -6129,7 +6129,7 @@ window.RECIPES = [
   "time": "~15 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/cai-bo-xoi-xao-thit.jpg"
  },
  {
   "id": "dau-que-xao-thit",
@@ -6221,7 +6221,7 @@ window.RECIPES = [
   "time": "~15 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/dau-que-xao-thit.jpg"
  },
  {
   "id": "kho-qua-xao-trung-thit-bam",
@@ -6323,7 +6323,7 @@ window.RECIPES = [
   "time": "~10 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/kho-qua-xao-trung-thit-bam.jpg"
  },
  {
   "id": "rau-muong-xao-mam-ruoc",
@@ -6418,7 +6418,7 @@ window.RECIPES = [
   "time": "~10 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/rau-muong-xao-mam-ruoc.jpg"
  },
  {
   "id": "cha-lua-kho-trung-cut",
@@ -6612,7 +6612,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/cha-trung-hap.jpg"
  },
  {
   "id": "dau-hu-hap-trung",
@@ -7448,7 +7448,7 @@ window.RECIPES = [
   "time": "~15 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/trung-hap-rau-cu.jpg"
  },
  {
   "id": "trung-hap-tom-nam",
