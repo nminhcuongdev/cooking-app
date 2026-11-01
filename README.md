@@ -23,12 +23,12 @@ Sau đó mở http://localhost:8000. Hoặc mở thẳng file [`dist/bep-nha.htm
 
 ## Thêm hoặc sửa công thức
 1. Thêm hoặc sửa file `.md` trong `recipes/<nhóm>/` theo mẫu [`recipes/_mau-cong-thuc.md`](recipes/_mau-cong-thuc.md): có bảng khẩu phần, mục `## Nguyên liệu` với các nhóm `###`, mục `## Cách làm` đánh số `1. **Tên bước (thời gian).** …`, và tùy chọn `## Mẹo`, `## Nguồn`.
-2. Build lại dữ liệu:
+2. Commit và push lên `main`. Workflow [`pages.yml`](.github/workflows/pages.yml) tự build lại dữ liệu và deploy lên GitHub Pages sau khoảng 1–2 phút.
+3. Muốn xem trước trên máy thì build dữ liệu rồi chạy server như ở trên:
    ```bash
    python3 tools/build_data.py   # recipes/*.md -> data/recipes.js
    python3 tools/bundle.py       # -> dist/bep-nha.html
    ```
-3. Commit và push lên `main`. GitHub Pages tự cập nhật sau khoảng 1 phút.
 
 ## Cấu trúc
 | Đường dẫn | Vai trò |
@@ -41,6 +41,7 @@ Sau đó mở http://localhost:8000. Hoặc mở thẳng file [`dist/bep-nha.htm
 | `recipes/` | Công thức gốc dạng Markdown |
 | `tools/` | Script build dữ liệu và đóng gói |
 | `dist/bep-nha.html` | Bản gộp một file |
+| `.github/workflows/pages.yml` | Build và deploy lên GitHub Pages mỗi khi push lên `main` |
 | `.nojekyll` | Tắt Jekyll để Pages phục vụ nguyên các file tĩnh |
 
 ## Nguồn công thức
