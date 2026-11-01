@@ -6516,7 +6516,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Trung bình",
   "mine": false,
-  "image": null
+  "image": "images/cha-lua-kho-trung-cut.jpg"
  },
  {
   "id": "cha-trung-hap",
@@ -6722,7 +6722,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/dau-hu-hap-trung.jpg"
  },
  {
   "id": "goi-trung-chien",
@@ -6823,7 +6823,7 @@ window.RECIPES = [
   "time": "~10 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/goi-trung-chien.jpg"
  },
  {
   "id": "trung-chien-dau-hu-thit-cua",
@@ -6908,7 +6908,7 @@ window.RECIPES = [
   "time": "~15 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/trung-chien-dau-hu-thit-cua.jpg"
  },
  {
   "id": "trung-chien-lap-xuong",
@@ -6999,7 +6999,7 @@ window.RECIPES = [
   "time": "~15 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/trung-chien-lap-xuong.jpg"
  },
  {
   "id": "trung-chien-ngai-cuu",
@@ -7084,7 +7084,7 @@ window.RECIPES = [
   "time": "~10 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/trung-chien-ngai-cuu.jpg"
  },
  {
   "id": "trung-cut-xao-chua-ngot",
@@ -7178,7 +7178,7 @@ window.RECIPES = [
   "time": "~25 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/trung-cut-xao-chua-ngot.jpg"
  },
  {
   "id": "trung-duc-he",
@@ -7274,7 +7274,7 @@ window.RECIPES = [
   "time": "~10 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/trung-duc-he.jpg"
  },
  {
   "id": "trung-duc-nam-rom",
@@ -7366,7 +7366,7 @@ window.RECIPES = [
   "time": "~30 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/trung-duc-nam-rom.jpg"
  },
  {
   "id": "trung-hap-rau-cu",
@@ -7557,6 +7557,6 @@ window.RECIPES = [
   "time": "~25 phút",
   "difficulty": "Dễ",
   "mine": false,
-  "image": null
+  "image": "images/trung-hap-tom-nam.jpg"
  }
 ];
