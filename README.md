@@ -53,7 +53,7 @@ Cần có: [Codex CLI](https://github.com/openai/codex) đã cài và đăng nh�
    ```
    Workflow tự build lại dữ liệu và deploy.
 
-Làm lại một món: `-Only canh-chua-ca-loc -Force`. Mô tả ảnh của từng món nằm trong `tools/image_prompts.json`, sinh bằng `python3 tools/make_image_prompts.py` và có thể sửa tay. Ảnh gốc (`images/raw/`) không được commit. Chỉ ảnh JPEG 800×800 khoảng 80–150 KB được đưa lên.
+Làm lại một món: `-Only canh-chua-ca-loc -Force`. Nếu bản Codex của bạn dùng cờ khác, truyền qua `-CodexFlags`, ví dụ `-CodexFlags "--sandbox","workspace-write","--skip-git-repo-check"` (đây là giá trị mặc định). Mô tả ảnh của từng món nằm trong `tools/image_prompts.json`, sinh bằng `python3 tools/make_image_prompts.py` và có thể sửa tay. Ảnh gốc (`images/raw/`) không được commit. Chỉ ảnh JPEG 800×800 khoảng 80–150 KB được đưa lên.
 
 ## Cấu trúc
 | Đường dẫn | Vai trò |

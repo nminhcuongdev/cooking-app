@@ -29,7 +29,9 @@ param(
   [string[]]$Only = @(),          # Chỉ tạo các món có id trong danh sách
   [switch]$Force,                 # Tạo lại kể cả khi đã có ảnh
   [int]$Size = 800,               # Kích thước ảnh JPEG cuối cùng (px)
-  [int]$JpegQuality = 82
+  [int]$JpegQuality = 82,
+  # Cờ cho "codex exec". Bản Codex mới đã bỏ --full-auto; mặc định chỉ cho phép ghi file trong thư mục repo.
+  [string[]]$CodexFlags = @("--sandbox", "workspace-write", "--skip-git-repo-check")
 )
 
 $ErrorActionPreference = "Stop"
@@ -93,14 +95,28 @@ Image size: 1024x1024. Image quality: $Quality.
                  "Use your image generation tool. Save the final image as PNG to exactly this path: images/raw/$($it.id).png . " +
                  "Do not create, edit or delete any other file. When the PNG is saved, reply DONE."
 
-  $cargs = @("exec", "--full-auto", "--skip-git-repo-check", "-c", "model_reasoning_effort=$Effort")
+  $cargs = @("exec") + $CodexFlags + @("-c", "model_reasoning_effort=$Effort")
   if ($Model) { $cargs += @("-m", $Model) }
   $cargs += $instruction
 
   Write-Host ("[{0}] {1} ..." -f $done, $it.title) -ForegroundColor Cyan
   $t0 = Get-Date
-  & codex @cargs 2>&1 | Out-File -Append -Encoding utf8 (Join-Path $RawDir "$($it.id).codex.log")
+  $codexLog = Join-Path $RawDir "$($it.id).codex.log"
+  # Codex ghi tiến trình ra stderr; PowerShell 5.1 coi đó là lỗi nên tạm tắt chế độ dừng khi lỗi.
+  $ErrorActionPreference = "Continue"
+  & codex @cargs 2>&1 | ForEach-Object { "$_" } | Out-File -Append -Encoding utf8 $codexLog
+  $exitCode = $LASTEXITCODE
+  $ErrorActionPreference = "Stop"
   $sec = [int]((Get-Date) - $t0).TotalSeconds
+
+  $logText = Get-Content -Raw -Encoding UTF8 $codexLog -ErrorAction SilentlyContinue
+  if ($logText -match "unexpected argument|unrecognized|invalid value|model .*not (found|supported)|does not exist") {
+    Write-Host "    Codex từ chối câu lệnh (mã thoát $exitCode). Trích log:" -ForegroundColor Red
+    ($logText -split "`n" | Select-String -Pattern "error|unexpected|invalid|model" | Select-Object -First 5) | ForEach-Object { Write-Host "      $_" -ForegroundColor Red }
+    Write-Host "    Dừng lại để tránh lặp lỗi cho các món khác. Gửi đoạn log trên để sửa." -ForegroundColor Red
+    Add-Content -Encoding utf8 $Log ("FAIL {0}  codex rejected command" -f $it.id)
+    exit 2
+  }
 
   if (Test-Path $png) {
     try {
