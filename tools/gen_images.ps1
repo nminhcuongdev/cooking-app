@@ -110,7 +110,8 @@ Image size: 1024x1024. Image quality: $Quality.
   $sec = [int]((Get-Date) - $t0).TotalSeconds
 
   $logText = Get-Content -Raw -Encoding UTF8 $codexLog -ErrorAction SilentlyContinue
-  if ($logText -match "unexpected argument|unrecognized|invalid value|model .*not (found|supported)|does not exist") {
+  # Chỉ coi là bị từ chối khi Codex thoát với mã lỗi. Cảnh báo (ví dụ chính sách approval của công ty) thì bỏ qua.
+  if ($exitCode -ne 0 -and $logText -match "unexpected argument|unrecognized|invalid value|model .*not (found|supported)|does not exist") {
     Write-Host "    Codex từ chối câu lệnh (mã thoát $exitCode). Trích log:" -ForegroundColor Red
     ($logText -split "`n" | Select-String -Pattern "error|unexpected|invalid|model" | Select-Object -First 5) | ForEach-Object { Write-Host "      $_" -ForegroundColor Red }
     Write-Host "    Dừng lại để tránh lặp lỗi cho các món khác. Gửi đoạn log trên để sửa." -ForegroundColor Red
@@ -131,7 +132,11 @@ Image size: 1024x1024. Image quality: $Quality.
       $fail++
     }
   } else {
-    Write-Host ("    KHÔNG thấy images\raw\{0}.png sau {1}s. Xem log: images\raw\{0}.codex.log" -f $it.id, $sec) -ForegroundColor Yellow
+    Write-Host ("    KHÔNG thấy images\raw\{0}.png sau {1}s (mã thoát {2}). Xem log: images\raw\{0}.codex.log" -f $it.id, $sec, $exitCode) -ForegroundColor Yellow
+    if ($logText) {
+      Write-Host "    10 dòng cuối của log:" -ForegroundColor Yellow
+      ($logText.TrimEnd() -split "`n" | Select-Object -Last 10) | ForEach-Object { Write-Host "      $_" }
+    }
     Add-Content -Encoding utf8 $Log ("FAIL {0}  no png after {1}s" -f $it.id, $sec)
     $fail++
   }
