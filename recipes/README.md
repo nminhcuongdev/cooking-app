@@ -8,7 +8,7 @@ Bộ công thức món ăn gia đình, nguyên liệu phổ biến, dễ làm. M
 
 > 🍳 Xem và nấu theo từng bước có hoạt cảnh 3D trong app [Bếp Nhà](https://nminhcuongdev.github.io/cooking-app/).
 
-## Mục lục (77 món)
+## Mục lục (78 món)
 
 ### Gà (21)
 - 🌐 [Cánh gà chiên nước mắm](ga/canh-ga-chien-nuoc-mam.md): 4 người
@@ -33,11 +33,12 @@ Bộ công thức món ăn gia đình, nguyên liệu phổ biến, dễ làm. M
 - 🌐 [Gỏi gà rau răm](ga/goi-ga-rau-ram.md): 4 người
 - 🌐 [Thịt gà kho rau răm](ga/thit-ga-kho-rau-ram.md): 4 người
 
-### Thịt heo (16)
+### Thịt heo (17)
 - 🌐 [Chả thịt lá lốt](heo/cha-thit-la-lot.md): 4 người
 - 🌐 [Sườn kho khoai tây](heo/suon-kho-khoai-tay.md): 4 người
 - 🌐 [Sườn non ram mè](heo/suon-non-ram-me.md): 4 người
 - 🌐 [Sườn ram mặn](heo/suon-ram-man.md): 4 người
+- 🎬 [Sườn xào chua ngọt kiểu Bắc](heo/suon-xao-chua-ngot-kieu-bac.md): 4 người (ước lượng)
 - 🌐 [Sườn xào chua ngọt](heo/suon-xao-chua-ngot.md): 4 người
 - 🌐 [Thịt ba chỉ rim chanh sả](heo/thit-ba-chi-rim-chanh-sa.md): 4 người
 - 🌐 [Thịt ba chỉ rim nước tương, trứng cút](heo/thit-ba-chi-rim-nuoc-tuong.md): 4 người
