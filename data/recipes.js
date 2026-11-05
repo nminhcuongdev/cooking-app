@@ -3621,13 +3621,8 @@ window.RECIPES = [
      "5 ml hạt nêm (½ thìa canh)",
      "10 ml đường (1 thìa canh)",
      "5 ml tiêu xay (½ thìa canh)",
-     "Ớt bột: tùy chọn"
-    ]
-   },
-   {
-    "name": "Áp chảo",
-    "items": [
-     "20 ml dầu ăn (2 thìa canh; nguồn liệt kê chung trong phần gia vị)"
+     "Ớt bột: tùy chọn",
+     "20 ml dầu ăn (2 thìa canh)"
     ]
    }
   ],
@@ -3641,14 +3636,14 @@ window.RECIPES = [
    },
    {
     "title": "Ướp thịt",
-    "text": "Trộn thịt với hành tỏi băm, **20 ml nước mắm**, **10 ml nước tương**, **10 ml tương ớt**, **5 ml hạt nêm**, **10 ml đường**, **5 ml tiêu** và ớt bột nếu dùng. Để thịt thấm đều gia vị.",
+    "text": "Trộn thịt với hành tỏi băm, **20 ml nước mắm**, **10 ml nước tương**, **10 ml tương ớt**, **5 ml hạt nêm**, **10 ml đường**, **5 ml tiêu**, ớt bột nếu dùng, và **20 ml dầu ăn**. Để thịt thấm đều gia vị.",
     "subs": [],
     "after": "",
     "minutes": null
    },
    {
     "title": "Áp chảo",
-    "text": "Đun nóng **20 ml dầu ăn**, gắp thịt vào áp chảo đến khi hai mặt vàng thơm. Giữ lại phần nước ướp.",
+    "text": "Đun nóng chảo, gắp thịt vào áp chảo đến khi hai mặt vàng thơm. Giữ lại phần nước ướp.",
     "subs": [],
     "after": "",
     "minutes": null

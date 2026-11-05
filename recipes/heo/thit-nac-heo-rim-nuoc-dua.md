@@ -24,17 +24,15 @@ Thịt nạc heo ướp gia vị quen thuộc, áp chảo vàng mặt rồi khì
 - 10 ml đường (1 thìa canh)
 - 5 ml tiêu xay (½ thìa canh)
 - Ớt bột: tùy chọn
-
-### Áp chảo
-- 20 ml dầu ăn (2 thìa canh; nguồn liệt kê chung trong phần gia vị)
+- 20 ml dầu ăn (2 thìa canh)
 
 > Quy ước của nguồn: 1 thìa canh = 10 ml (nhỏ hơn mức 15 ml dùng ở các công thức khác trong bộ này), nên định lượng được ghi theo ml.
 
 ## Cách làm
 
 1. **Sơ chế.** Thịt rửa sạch, để ráo, cắt miếng theo ý. Bóc vỏ, băm hành tím và tỏi.
-2. **Ướp thịt.** Trộn thịt với hành tỏi băm, **20 ml nước mắm**, **10 ml nước tương**, **10 ml tương ớt**, **5 ml hạt nêm**, **10 ml đường**, **5 ml tiêu** và ớt bột nếu dùng. Để thịt thấm đều gia vị.
-3. **Áp chảo.** Đun nóng **20 ml dầu ăn**, gắp thịt vào áp chảo đến khi hai mặt vàng thơm. Giữ lại phần nước ướp.
+2. **Ướp thịt.** Trộn thịt với hành tỏi băm, **20 ml nước mắm**, **10 ml nước tương**, **10 ml tương ớt**, **5 ml hạt nêm**, **10 ml đường**, **5 ml tiêu**, ớt bột nếu dùng, và **20 ml dầu ăn**. Để thịt thấm đều gia vị.
+3. **Áp chảo.** Đun nóng chảo, gắp thịt vào áp chảo đến khi hai mặt vàng thơm. Giữ lại phần nước ướp.
 4. **Khìa (lửa nhỏ, đậy nắp).** Đổ **330 ml nước dừa** và phần nước ướp còn lại vào chảo. Đậy nắp, khìa lửa nhỏ đến khi thịt chín mềm.
 5. **Cô sốt.** Mở nắp, đun tiếp cho nước sốt cạn bớt, sánh bóng và bám đều quanh miếng thịt.
 6. **Dùng.** Bày ra đĩa, ăn cùng cơm trắng nóng.
