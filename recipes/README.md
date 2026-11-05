@@ -4,10 +4,11 @@ Bộ công thức món ăn gia đình, nguyên liệu phổ biến, dễ làm. M
 
 - 👤 **Công thức của bạn**: lấy từ ghi chú cá nhân. Một số định lượng còn thiếu được ước lượng; xem chi tiết trong từng file.
 - 🌐 **Món Ngon Mỗi Ngày**: lấy từ [monngonmoingay.com](https://monngonmoingay.com). Định lượng giữ đúng bản gốc, có link nguồn ở cuối mỗi file.
+- 🎬 **Video YouTube**: lấy từ phần mô tả của video, có link video ở cuối file.
 
 > 🍳 Xem và nấu theo từng bước có hoạt cảnh 3D trong app [Bếp Nhà](https://nminhcuongdev.github.io/cooking-app/).
 
-## Mục lục (76 món)
+## Mục lục (77 món)
 
 ### Gà (21)
 - 🌐 [Cánh gà chiên nước mắm](ga/canh-ga-chien-nuoc-mam.md): 4 người
@@ -32,7 +33,7 @@ Bộ công thức món ăn gia đình, nguyên liệu phổ biến, dễ làm. M
 - 🌐 [Gỏi gà rau răm](ga/goi-ga-rau-ram.md): 4 người
 - 🌐 [Thịt gà kho rau răm](ga/thit-ga-kho-rau-ram.md): 4 người
 
-### Thịt heo (15)
+### Thịt heo (16)
 - 🌐 [Chả thịt lá lốt](heo/cha-thit-la-lot.md): 4 người
 - 🌐 [Sườn kho khoai tây](heo/suon-kho-khoai-tay.md): 4 người
 - 🌐 [Sườn non ram mè](heo/suon-non-ram-me.md): 4 người
@@ -46,6 +47,7 @@ Bộ công thức món ăn gia đình, nguyên liệu phổ biến, dễ làm. M
 - 🌐 [Thịt kho đậu phộng](heo/thit-kho-dau-phong.md): 4 người
 - 🌐 [Thịt kho nước dừa (trứng vịt)](heo/thit-kho-nuoc-dua.md): 4 người
 - 👤 [Thịt kho trứng cút](heo/thit-kho-trung.md): 3–4 người
+- 🎬 [Thịt nạc heo rim nước dừa (thịt khìa)](heo/thit-nac-heo-rim-nuoc-dua.md): 4–5 người (ước lượng)
 - 🌐 [Thịt rang gừng lá chanh](heo/thit-rang-gung-la-chanh.md): 4 người
 - 🌐 [Thịt rang sả](heo/thit-rang-sa.md): 4 người
 

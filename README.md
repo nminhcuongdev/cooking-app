@@ -73,4 +73,4 @@ Làm lại một món: `-Only canh-chua-ca-loc -Force`. Nếu bản Codex của 
 | `.nojekyll` | Tắt Jekyll để Pages phục vụ nguyên các file tĩnh |
 
 ## Nguồn công thức
-Công thức đánh dấu 🌐 lấy từ [Món Ngon Mỗi Ngày](https://monngonmoingay.com), giữ nguyên định lượng gốc và có link nguồn trong từng file. Công thức đánh dấu 👤 là công thức nhà mình.
+Công thức đánh dấu 🌐 lấy từ [Món Ngon Mỗi Ngày](https://monngonmoingay.com), giữ nguyên định lượng gốc và có link nguồn trong từng file. Công thức đánh dấu 🎬 lấy từ video YouTube (link video trong file; ảnh minh họa là thumbnail của video). Công thức đánh dấu 👤 là công thức nhà mình.

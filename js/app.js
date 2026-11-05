@@ -32,6 +32,9 @@
   const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
   const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
   const byId = id => RECIPES.find(r => r.id === id);
+  // Bản gộp dist/bep-nha.html nằm trong thư mục con nên cần tiền tố '../' cho ảnh.
+  const IMG_BASE = window.BEPNHA_IMG_BASE || '';
+  RECIPES.forEach(r => { if (r.image) r.image = IMG_BASE + r.image; });
 
   function toast(msg) {
     const t = document.getElementById('toast');
@@ -93,6 +96,14 @@
     });
   }
 
+  function sourceLabel(r) {
+    if (r.mine) return 'Công thức nhà mình';
+    const u = (r.source && r.source.url) || '';
+    if (/youtube\.com|youtu\.be/.test(u)) return 'Video YouTube';
+    if (/monngonmoingay\.com/.test(u)) return 'Món Ngon Mỗi Ngày';
+    try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return 'Nguồn ngoài'; }
+  }
+
   function cardHTML(r) {
     const acts = [...new Set(r.steps.map(s => s.action))].slice(0, 4).map(a => C3 ? C3.ACTIONS[a].icon : '').join('');
     const fav = favs.has(r.id);
@@ -101,7 +112,7 @@
       <div class="card-body">
         <h3>${esc(r.title)}</h3>
         <div class="meta"><span>👥 ${esc(r.servings || '—')}</span><span>🧾 ${r.steps.length} bước</span></div>
-        <span class="badge ${r.mine ? 'mine' : ''}">${r.mine ? 'Công thức nhà mình' : 'Món Ngon Mỗi Ngày'}</span>
+        <span class="badge ${r.mine ? 'mine' : ''}">${esc(sourceLabel(r))}</span>
       </div>
       <button class="fav" type="button" data-fav="${r.id}" aria-pressed="${fav}" aria-label="${fav ? 'Bỏ yêu thích' : 'Thêm vào yêu thích'} ${esc(r.title)}">${fav ? '❤️' : '🤍'}</button>
     </a>`;
@@ -146,7 +157,7 @@
     const want = store.get('serv:' + r.id, base) || base;
     const factor = base ? want / base : 1;
     const checked = new Set(store.get('chk:' + r.id, []));
-    const pills = [r.servings && '👥 ' + r.servings, r.time && '⏱️ ' + r.time, r.difficulty && '📶 ' + r.difficulty].filter(Boolean);
+    const pills = [r.servings && '👥 ' + r.servings, r.time && r.time !== '—' && '⏱️ ' + r.time, r.difficulty && '📶 ' + r.difficulty].filter(Boolean);
     let idx = 0;
     const ingHTML = r.ingredients.map(g => `<div class="ing-group"><h3>${esc(g.name)}</h3><ul class="ing">${
       g.items.map(it => {

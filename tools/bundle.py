@@ -14,6 +14,8 @@ def read(rel):
 
 html = read('index.html')
 html = html.replace('<link rel="stylesheet" href="css/style.css">', '<style>\n' + read('css/style.css') + '\n</style>')
+html = html.replace('<script src="data/recipes.js"></script>',
+                    "<script>window.BEPNHA_IMG_BASE = '../';</script>\n  <script src=\"data/recipes.js\"></script>")
 for rel in ('data/recipes.js', 'js/scene3d.js', 'js/app.js'):
     code = read(rel).replace('</script', '<\\/script')
     html = html.replace(f'<script src="{rel}"></script>', '<script>\n' + code + '\n</script>')

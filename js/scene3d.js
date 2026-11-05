@@ -30,7 +30,7 @@
     ['grill',    /nướng/],
     ['fry',      /chiên|rán/],
     ['caramel',  /làm muối/],
-    ['braise',   /kho|rim|(^|\s)om(\s|$)|ram|sém cạnh|cạn nước/],
+    ['braise',   /kho|rim|khìa|(^|\s)om(\s|$)|ram|sém cạnh|cạn nước|cô sốt|cô nước/],
     ['stirfry',  /xào|phi|rang|đảo|áp chảo|xóc|sốt|thêm rau/],
     ['boil',     /luộc|nấu|đun|hầm|chần|trụng|lọc nước|miến/],
     ['season',   /nêm|nếm|thử vị/],

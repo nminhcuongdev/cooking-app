@@ -3457,6 +3457,109 @@ window.RECIPES = [
   "image": "images/thit-kho-trung.jpg"
  },
  {
+  "id": "thit-nac-heo-rim-nuoc-dua",
+  "group": "heo",
+  "groupName": "Thịt heo",
+  "title": "Thịt nạc heo rim nước dừa (thịt khìa)",
+  "meta": {
+   "Khẩu phần": "4–5 người (ước lượng)",
+   "Tổng thời gian": "—",
+   "Độ khó": "Dễ"
+  },
+  "tags": "Nhóm món: Thịt heo · Độ cay: Nhẹ (tương ớt, ớt bột tùy chọn)",
+  "intro": "Thịt nạc heo ướp gia vị quen thuộc, áp chảo vàng mặt rồi khìa với nước dừa đến khi mềm. Sốt sánh bóng màu nâu cánh gián, vị mặn ngọt hài hòa, rất hao cơm.",
+  "ingredients": [
+   {
+    "name": "Nguyên liệu chính",
+    "items": [
+     "750 g thịt nạc vai heo (có thể thay bằng nạc dăm hoặc ba chỉ)",
+     "3 củ hành tím, băm",
+     "4–5 tép tỏi, băm",
+     "330 ml nước dừa (1 hộp)"
+    ]
+   },
+   {
+    "name": "Gia vị ướp thịt",
+    "items": [
+     "20 ml nước mắm (2 thìa canh loại 10 ml)",
+     "10 ml nước tương (1 thìa canh)",
+     "10 ml tương ớt (1 thìa canh)",
+     "5 ml hạt nêm (½ thìa canh)",
+     "10 ml đường (1 thìa canh)",
+     "5 ml tiêu xay (½ thìa canh)",
+     "Ớt bột: tùy chọn"
+    ]
+   },
+   {
+    "name": "Áp chảo",
+    "items": [
+     "20 ml dầu ăn (2 thìa canh; nguồn liệt kê chung trong phần gia vị)"
+    ]
+   }
+  ],
+  "steps": [
+   {
+    "title": "Sơ chế",
+    "text": "Thịt rửa sạch, để ráo, cắt miếng theo ý. Bóc vỏ, băm hành tím và tỏi.",
+    "subs": [],
+    "after": "",
+    "minutes": null
+   },
+   {
+    "title": "Ướp thịt",
+    "text": "Trộn thịt với hành tỏi băm, **20 ml nước mắm**, **10 ml nước tương**, **10 ml tương ớt**, **5 ml hạt nêm**, **10 ml đường**, **5 ml tiêu** và ớt bột nếu dùng. Để thịt thấm đều gia vị.",
+    "subs": [],
+    "after": "",
+    "minutes": null
+   },
+   {
+    "title": "Áp chảo",
+    "text": "Đun nóng **20 ml dầu ăn**, gắp thịt vào áp chảo đến khi hai mặt vàng thơm. Giữ lại phần nước ướp.",
+    "subs": [],
+    "after": "",
+    "minutes": null
+   },
+   {
+    "title": "Khìa (lửa nhỏ, đậy nắp)",
+    "text": "Đổ **330 ml nước dừa** và phần nước ướp còn lại vào chảo. Đậy nắp, khìa lửa nhỏ đến khi thịt chín mềm.",
+    "subs": [],
+    "after": "",
+    "minutes": null
+   },
+   {
+    "title": "Cô sốt",
+    "text": "Mở nắp, đun tiếp cho nước sốt cạn bớt, sánh bóng và bám đều quanh miếng thịt.",
+    "subs": [],
+    "after": "",
+    "minutes": null
+   },
+   {
+    "title": "Dùng",
+    "text": "Bày ra đĩa, ăn cùng cơm trắng nóng.",
+    "subs": [],
+    "after": "",
+    "minutes": null
+   }
+  ],
+  "tips": [
+   "Dùng nạc vai hoặc nạc dăm để thịt không bị khô. Thích béo hơn thì dùng ba chỉ.",
+   "Áp chảo cho vàng mặt trước khi khìa giúp thịt thơm và lên màu nâu đẹp.",
+   "Cô sốt ở bước cuối đến khi sánh bóng là món có lớp áo \"như xá xíu\"."
+  ],
+  "notes": [
+   "Video không ghi khẩu phần, thời gian ướp, thời gian khìa và cách cắt thịt; khẩu phần ở trên là ước lượng theo 750 g thịt. Ảnh minh họa là thumbnail của video."
+  ],
+  "source": {
+   "name": "Thịt Nạc Heo RAM kiểu này ăn ngon như xá xíu – Nấu ăn ngon Tv (YouTube)",
+   "url": "https://www.youtube.com/watch?v=JdtPUvPjRTM"
+  },
+  "servings": "4–5 người (ước lượng)",
+  "time": "—",
+  "difficulty": "Dễ",
+  "mine": false,
+  "image": "images/thit-nac-heo-rim-nuoc-dua.jpg"
+ },
+ {
   "id": "thit-rang-gung-la-chanh",
   "group": "heo",
   "groupName": "Thịt heo",
